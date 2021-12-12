@@ -13,8 +13,7 @@
 <body>
 <!-- header -->
 <?php include('includes/header.php')?>
-<h1>Main</h1>
-<h1><?=$content?></h1>
+<?=$content?>
 
 <?php include('includes/footer.php')?>
 <!-- Option 1: Bootstrap Bundle with Popper -->

@@ -1,5 +1,6 @@
 <?php
 include('app/lib/dev.php');
+require('app/config/db.php');
 require('path.php');
 
 use app\controller\PostsController;
