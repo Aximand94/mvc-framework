@@ -4,6 +4,7 @@ require('path.php');
 
 use app\controller\PostsController;
 use app\core\Router;
+use app\core\View;
 
 
 spl_autoload_register(function($class){
@@ -15,7 +16,7 @@ spl_autoload_register(function($class){
 
 $query = $_SERVER['QUERY_STRING'];
 
-Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', ['controller'=>'Page']);
+Router::add('^page/(?P<action>[a-z-]+)/(?P<query>[a-z-]+)$', ['controller'=>'Page']);
 Router::add('^page/(?P<alias>[a-z-]+)$', ['controller'=>'Page','action'=>'view']);
 
 //defaults route

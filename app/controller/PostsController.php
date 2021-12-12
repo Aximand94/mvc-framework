@@ -3,16 +3,15 @@
 
 namespace app\controller;
 
-use app\model\Controller;
 
-class PostsController extends Controller
+class PostsController extends AppController
 {
 
     public function index(){
-        echo "<h2>Post index page.</h2>";
+        //echo "<h2>Post index page.</h2>";
     }
 
     public function add(){
-        echo "<h2>Post add page.</h2>";
+        //echo "<h2>Post add page.</h2>";
     }
 }

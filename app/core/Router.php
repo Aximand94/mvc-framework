@@ -1,6 +1,7 @@
 <?php
 namespace app\core;
 use app\controller\PostsController;
+use app\core\View;
 
 class Router
 {
@@ -81,6 +82,7 @@ class Router
                 $obj = new $controller(self::$route);
                 if (method_exists($controller, $action)) {
                     $obj->$action();
+                    $obj->getView();
                 } else {
                     echo "method not found";
                 }
@@ -93,18 +95,23 @@ class Router
         }
     }
 
+    /**
+     *
+     * @param $url
+     * @return mixed|string
+     */
     protected static function removeGetQuery($url)
     {
         if ($url) {
             $params = explode('&', $url);
             //debug($params);
-            if(strpos($params[0],"=" ) === false){
+            if(!str_contains($params[0], "=")){
                 return rtrim($params[0], '/');
             }else{
                 return '';
             }
         }
-        print_r($url);
+        //print_r($url);
         return $url;
     }
 }

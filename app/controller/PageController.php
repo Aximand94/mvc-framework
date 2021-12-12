@@ -3,12 +3,10 @@
 
 namespace app\controller;
 
-use app\model\Controller;
 
-class PageController extends Controller
+class PageController extends AppController
 {
     public function index(){
-        debug($this->route);
         echo "<h2>Page index</h2>";
     }
 

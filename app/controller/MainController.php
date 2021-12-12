@@ -3,16 +3,27 @@
 
 namespace app\controller;
 
-use app\model\Controller;
 
-class MainController extends Controller
+
+class MainController extends AppController
 {
 
+    public $layout = 'main';
+
     public function index(){
-        echo "<h2>Index page.</h2>";
+        //$this->layout = false;
+        //$this->layout = 'main';
+        // $this->view = 'test';
+        //echo "<h2>Index page.</h2>";
+        $name = 'Bohdan';
+        $age = 27;
+        $array = [
+            'color'=>'white',
+            'work'=>'police'
+        ];
+        $this->setVars(compact('name', 'age', 'array'));
     }
     public function about(){
-        //debug($this->route);
         echo "<h2>About page.</h2>";
     }
 }
