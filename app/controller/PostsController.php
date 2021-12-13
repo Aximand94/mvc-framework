@@ -11,7 +11,19 @@ class PostsController extends AppController
         //echo "<h2>Post index page.</h2>";
     }
 
-    public function add(){
-        //echo "<h2>Post add page.</h2>";
+    public function store(){
+
+    }
+
+    public function show(){
+
+    }
+
+    public function update(){
+
+    }
+
+    public function delete(){
+
     }
 }

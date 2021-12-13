@@ -3,7 +3,5 @@
 
 class PostsModel
 {
-    public function __construct(){
-
-    }
+    public $table = 'posts';
 }
