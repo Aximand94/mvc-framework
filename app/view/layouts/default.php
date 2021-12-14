@@ -13,8 +13,20 @@
 <body>
 <!-- header -->
 <?php include('includes/header.php')?>
-
-<h1><?=$content?></h1>
+<!-- tags menu -->
+<?php if(!empty($menu)):?>
+    <div class="col-3">
+        <ul>
+        <?php if($admin==true):?>
+            <li><a href="#">Admin dashboard</a></li>
+        <?php endif;?>
+            <?php foreach($menu as $tag):?>
+                <li><a href="#"><?=$tag['title']?></a></li>
+            <?php endforeach;?>
+        </ul>
+    <h1><?=$content?></h1>
+<?php endif;?>
+<!-- end tags menu -->
 
 <?php include('includes/footer.php')?>
 <!-- Option 1: Bootstrap Bundle with Popper -->

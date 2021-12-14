@@ -26,24 +26,18 @@ class Router
     {
         self::$routes[$regexp] = $route;
     }
+    /*
 
-    /**
-     * return route table
-     * @return array
-     */
     public static function getRoutes(): array
     {
         return self::$routes;
     }
 
-    /**
-     * @return array
-     */
     public static function getRoute(): array
     {
         return self::$route;
     }
-
+    */
     /**
      * search url in route table
      * @param string $url
@@ -74,7 +68,6 @@ class Router
      */
     public static function dispatch($url){
         $url = self::removeGetQuery($url);
-        //var_dump($url);
         if (self::match($url)) {
             $controller = "app\controller\\" . ucfirst(self::$route['controller']) . "Controller";
             $action = self::$route['action'];
@@ -93,6 +86,10 @@ class Router
             http_response_code(404);
             include('public/404.html');
         }
+    }
+
+    public function get($url){
+        self::dispatch($url);
     }
 
     /**

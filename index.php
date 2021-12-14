@@ -17,8 +17,8 @@ spl_autoload_register(function($class){
 
 $query = $_SERVER['QUERY_STRING'];
 
-Router::add('^page/(?P<action>[a-z-]+)/(?P<query>[a-z-]+)$', ['controller'=>'Page']);
-Router::add('^page/(?P<alias>[a-z-]+)$', ['controller'=>'Page','action'=>'view']);
+//Router::add('^page/(?P<action>[a-z-]+)/(?P<query>[a-z-]+)$', ['controller'=>'Page']);
+//Router::add('^page/(?P<alias>[a-z-]+)$', ['controller'=>'Page','action'=>'view']);
 
 //defaults route
 Router::add('^$', ['controller'=>'Main', 'action'=>'index']);

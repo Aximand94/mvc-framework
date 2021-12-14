@@ -4,6 +4,7 @@
 namespace app\controller;
 
 use app\model\MainModel;
+use R;
 
 class MainController extends AppController
 {
@@ -13,11 +14,15 @@ class MainController extends AppController
     public function index(){
         $model = new MainModel;
         //$posts = $model->selectAll();
-        $posts = $model->like('title','UPD');
-        $this->setVars(compact('posts'));
+        $posts = R::findAll('posts');
+        //$this->test();
+        $menu = $this->navMenu;
+        $this->setVars(compact('posts', 'menu'));
     }
 
-
+    public function test(){
+        $this->layout = 'test';
+    }
 
     public function about(){
         //header("Location: ".SITE);

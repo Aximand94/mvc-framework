@@ -11,9 +11,9 @@ class PageController extends AppController
     }
 
     public function view(){
-        debug($this->route);
-        debug($_GET);
-        echo $_GET['page'];
-        echo "<h2>Page view</h2>";
+        //debug($this->route);
+        $menu = $this->navMenu;
+        $admin = $this->admin;
+        $this->setVars(compact( 'menu', 'admin'));
     }
 }

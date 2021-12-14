@@ -29,8 +29,6 @@ class View
      * @param $route
      */
     public function __construct($route,$view='',$layout=''){
-        var_dump($layout);
-        var_dump($view);
         $this->route = $route;
         if($layout===false){
             $this->layout = false;
@@ -44,10 +42,7 @@ class View
         if(is_array($vars)) {
             extract($vars);
         }
-        //debug($vars);
-        //тут баг, надо поправить!
-        $fileView = ROOT.'app/view/'.$this->route['controller'].'/'.$this->view.'.php';
-
+        $fileView = ROOT.'app/view/'.$this->route['controller'].'/'.$this->view.'.php';      //тут баг, надо поправить!
         ob_start();
         if(file_exists($fileView)){
             require($fileView);
@@ -62,9 +57,6 @@ class View
             }else{
                 echo "Шаблон: $fileLayout - не найден";
             }
-        }else{
-
         }
-
     }
 }
