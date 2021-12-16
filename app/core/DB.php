@@ -19,7 +19,7 @@ class DB
         $db = require('app/config/db.php');
         R::setup($db['dsn'],$db['name'], $db['pass'],$options);
         R::freeze(true);
-        R::fancyDebug( TRUE );
+        //R::fancyDebug( TRUE );
         //$this->pdo = new PDO($db['dsn'],$db['name'],$db['pass'], $options);
     }
 

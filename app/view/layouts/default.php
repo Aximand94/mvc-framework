@@ -7,8 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <title>Default page</title>
+    <title><?=$meta['title']?></title>
+    <meta name="description" content="<?=$meta['desc']?>">
+    <meta name="keywords" content="<?=$meta['keywords']?>"
 </head>
 <body>
 <!-- header -->
@@ -17,9 +18,6 @@
 <?php if(!empty($menu)):?>
     <div class="col-3">
         <ul>
-        <?php if($admin==true):?>
-            <li><a href="#">Admin dashboard</a></li>
-        <?php endif;?>
             <?php foreach($menu as $tag):?>
                 <li><a href="#"><?=$tag['title']?></a></li>
             <?php endforeach;?>

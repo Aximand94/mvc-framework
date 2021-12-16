@@ -5,19 +5,34 @@ namespace app\controller;
 
 use app\model\MainModel;
 use R;
+use app\core\App;
 
 class MainController extends AppController
 {
 
-    public $layout = 'main';
+    public $layout = 'main';  //main
 
     public function index(){
+        //App::$app->get();
+        R::fancyDebug(true);
         $model = new MainModel;
         //$posts = $model->selectAll();
-        $posts = R::findAll('posts');
-        //$this->test();
+        $posts = App::$app->cache->getCache('posts');
+
+        if(!$posts){
+            $posts = R::findAll('posts');
+            App::$app->cache->setCache('posts', $posts, 3600*24);
+        }
+        echo date('Y-m-d H:i', time());
+        echo "<br>";
+        echo date('Y-m-d H:i', 1639770285);
+        echo "<br>";
+        $post = R::findOne('posts','id=1');
+        $this->setMeta('MainPage','описание страницы','ключевые слова');
+        //$this->setMeta($post->title,$post->content);
         $menu = $this->navMenu;
-        $this->setVars(compact('posts', 'menu'));
+        $meta = $this->meta;
+        $this->setVars(compact('posts', 'menu', 'meta'));
     }
 
     public function test(){
