@@ -3,11 +3,15 @@ include('app/lib/dev.php');
 require('app/config/db.php');
 require('path.php');
 require('app/config/config.php');
+const DEBUG = true;
 
+use app\core\ErrorHelper;
 use app\controller\PostsController;
 use app\core\Router;
 use app\core\View;
 use app\core\App;
+
+
 
 date_default_timezone_set('Europe/Moscow');
 //debug(CACHE);
@@ -28,6 +32,7 @@ new App;
 Router::add('^$', ['controller'=>'Main', 'action'=>'index']);
 Router::add('^(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$');
 Router::dispatch($query);
+
 
 /*
 if(Router::match($query)){

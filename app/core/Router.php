@@ -77,14 +77,14 @@ class Router
                     $obj->$action();
                     $obj->getView();
                 } else {
-                    echo "method not found";
+                    throw new \Exception('Method not found', 404);
                 }
             } else {
-                echo "class not found";
+                throw new \Exception('Class not found', 404);
             }
         } else {
-            http_response_code(404);
-            include('public/404.html');
+            //include('public/404.html');
+            throw new \Exception('Page not found', 404);
         }
     }
 
@@ -108,7 +108,6 @@ class Router
                 return '';
             }
         }
-        //print_r($url);
         return $url;
     }
 }

@@ -10,23 +10,21 @@ use app\core\App;
 class MainController extends AppController
 {
 
-    public $layout = 'main';  //main
+    public $layout = 'default';  //main
 
     public function index(){
-        //App::$app->get();
+        /*
         R::fancyDebug(true);
         $model = new MainModel;
-        //$posts = $model->selectAll();
+        $posts = $model->selectAll(); */
+        $posts = R::findAll('posts');
+        /*
         $posts = App::$app->cache->getCache('posts');
-
         if(!$posts){
             $posts = R::findAll('posts');
             App::$app->cache->setCache('posts', $posts, 3600*24);
         }
-        echo date('Y-m-d H:i', time());
-        echo "<br>";
-        echo date('Y-m-d H:i', 1639770285);
-        echo "<br>";
+        */
         $post = R::findOne('posts','id=1');
         $this->setMeta('MainPage','описание страницы','ключевые слова');
         //$this->setMeta($post->title,$post->content);
@@ -36,14 +34,24 @@ class MainController extends AppController
     }
 
     public function test(){
-        $this->layout = 'test';
+        if($this->isAjax()){
+            $model = new MainModel();
+            //$data = ['answer'=>'ответ с сервера', 'code'=>200];
+            //echo json_encode($data);
+            $post = R::findOne('posts', "id = {$_POST['id']}");
+            $this->loadView('test', compact('post'));
+            //debug($post);
+            die;
+        }else{
+            echo "SSSSSSSSS";
+        }
     }
 
     public function about(){
-        //header("Location: ".SITE);
-        echo "<h2>About page.</h2>";
+        echo "<h2>About</h2>";
     }
 
+    /*
     public function delete(){
         $model = new MainModel;
         $model->delete(5);
@@ -55,4 +63,5 @@ class MainController extends AppController
         $model->update(3, 'id', 'title', 'UPD');
         header("Location: ".SITE."main/index");
     }
+    */
 }

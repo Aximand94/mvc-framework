@@ -1,0 +1,97 @@
+ 2021-12-19 17-22-54 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type app\core\Exception, ParseError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:38
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(ParseError))
+#1 {main}
+  thrown,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 38 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-19 17-31-41 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, ParseError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(ParseError))
+#1 {main}
+  thrown,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-19 17-35-11 
+                                     
+Error code: 404. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-19 17-35-13 
+                                     
+Error code: 404. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-19 17-35-25 
+                                     
+Error code: 404. 
+                                     
+Error message: Method not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-19 17-42-44 
+                                     
+Error code: 404. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-19 17-50-15 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-19 22-15-23 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
+#1 {main}
+  thrown,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-19 22-26-58 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
+#1 {main}
+  thrown,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
