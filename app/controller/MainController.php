@@ -10,7 +10,7 @@ use app\core\App;
 class MainController extends AppController
 {
 
-    public $layout = 'default';  //main
+    public string $layout = 'default';  //main
 
     public function index(){
         /*

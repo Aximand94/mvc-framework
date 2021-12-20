@@ -52,6 +52,11 @@ class Router
                         $route[$controller] = $action;
                     }
                 }
+                if(!isset($route['prefix'])){
+                    $route['prefix']='';
+                }else{
+                    $route['prefix'] .= '\\';
+                }
                 if (!isset($route['action'])) {
                     $route['action'] = 'index';
                 }
@@ -69,10 +74,11 @@ class Router
     public static function dispatch($url){
         $url = self::removeGetQuery($url);
         if (self::match($url)) {
-            $controller = "app\controller\\" . ucfirst(self::$route['controller']) . "Controller";
+            $controller = "app\controller\\" .self::$route['prefix']. ucfirst(self::$route['controller']) . "Controller";
             $action = self::$route['action'];
             if (class_exists($controller)) {
                 $obj = new $controller(self::$route);
+                //debug($obj);
                 if (method_exists($controller, $action)) {
                     $obj->$action();
                     $obj->getView();

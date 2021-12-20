@@ -44,7 +44,7 @@ class ErrorHelper{
     protected function printError($errno, $errstr, $errfile, $errline, $response = 500){
         $this->errorLog($errno, $errstr, $errfile, $errline);
         http_response_code($response);
-        if($response==404){
+        if($response==404 && !DEBUG){
             require(ROOT.'public/error/404.php');
             die;
         }

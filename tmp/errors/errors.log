@@ -95,3 +95,636 @@ Stack trace:
 in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
                                      
 <----------------------------------------------------------------------->
+ 2021-12-20 14-13-14 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-13-32 
+                                     
+Error code: Exception. 
+                                     
+Error message: Method not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-32-22 
+                                     
+Error code: 2. 
+                                     
+Error message: Undefined variable $controller,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: 76 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-32-24 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-32-29 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-32-45 
+                                     
+Error code: 2. 
+                                     
+Error message: Undefined variable $controller,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: 76 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-32-55 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-33-37 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-33-45 
+                                     
+Error code: Exception. 
+                                     
+Error message: Method not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-37-58 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-38-07 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-39-00 
+                                     
+Error code: 2. 
+                                     
+Error message: Undefined variable $controller,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: 81 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-39-30 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-40-46 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-40-47 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-40-48 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-40-48 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-40-48 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-40-48 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-40-48 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-40-49 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-40-49 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-43-35 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
+#1 {main}
+  thrown,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-43-42 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
+#1 {main}
+  thrown,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-44-48 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
+#1 {main}
+  thrown,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-44-55 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
+#1 {main}
+  thrown,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-45-15 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
+#1 {main}
+  thrown,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-45-22 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
+#1 {main}
+  thrown,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-46-29 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-46-38 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-48-46 
+                                     
+Error code: 2. 
+                                     
+Error message: Undefined variable $meta,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\view\layouts\default.php, on line: 10 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-49-16 
+                                     
+Error code: 2. 
+                                     
+Error message: Undefined variable $meta,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\view\layouts\default.php, on line: 10 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-49-20 
+                                     
+Error code: 2. 
+                                     
+Error message: Undefined variable $meta,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\view\layouts\default.php, on line: 10 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-49-20 
+                                     
+Error code: 2. 
+                                     
+Error message: Undefined variable $meta,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\view\layouts\default.php, on line: 10 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-49-21 
+                                     
+Error code: 2. 
+                                     
+Error message: Undefined variable $meta,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\view\layouts\default.php, on line: 10 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-49-21 
+                                     
+Error code: 2. 
+                                     
+Error message: Undefined variable $meta,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\view\layouts\default.php, on line: 10 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-49-21 
+                                     
+Error code: 2. 
+                                     
+Error message: Undefined variable $meta,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\view\layouts\default.php, on line: 10 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 14-49-21 
+                                     
+Error code: 2. 
+                                     
+Error message: Undefined variable $meta,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\view\layouts\default.php, on line: 10 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 15-13-08 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 15-21-44 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 15-21-49 
+                                     
+Error code: 2. 
+                                     
+Error message: Undefined property: app\core\View::$router,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\View.php, on line: 47 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 15-22-32 
+                                     
+Error code: 2. 
+                                     
+Error message: Undefined property: app\core\View::$router,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\View.php, on line: 47 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 15-22-33 
+                                     
+Error code: 2. 
+                                     
+Error message: Undefined property: app\core\View::$router,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\View.php, on line: 47 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 15-33-01 
+                                     
+Error code: Exception. 
+                                     
+Error message: View not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\View.php, on line: C:\xampp\htdocs\mvc-framework\app\core\View.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 15-33-38 
+                                     
+Error code: Exception. 
+                                     
+Error message: View C:\xampp\htdocs\mvc-framework/app/view/admin\User/index.php - not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\View.php, on line: C:\xampp\htdocs\mvc-framework\app\core\View.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 15-38-09 
+                                     
+Error code: Exception. 
+                                     
+Error message: View C:\xampp\htdocs\mvc-framework/app/view/admin\User/index.php - not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\View.php, on line: C:\xampp\htdocs\mvc-framework\app\core\View.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 15-38-49 
+                                     
+Error code: Exception. 
+                                     
+Error message: View C:\xampp\htdocs\mvc-framework/app/view/admin\User/index.php - not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\View.php, on line: C:\xampp\htdocs\mvc-framework\app\core\View.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 15-44-07 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 15-51-44 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 15-52-05 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 15-52-07 
+                                     
+Error code: Exception. 
+                                     
+Error message: Class not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 16-07-37 
+                                     
+Error code: 2. 
+                                     
+Error message: Undefined variable $meta,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\view\layouts\admin.php, on line: 10 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 16-08-32 
+                                     
+Error code: 2. 
+                                     
+Error message: Undefined variable $meta,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\view\layouts\admin.php, on line: 10 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 16-10-17 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(Error))
+#1 {main}
+  thrown,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 16-10-33 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(Error))
+#1 {main}
+  thrown,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 16-12-56 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(Error))
+#1 {main}
+  thrown,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 16-16-13 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(Error))
+#1 {main}
+  thrown,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 16-17-34 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(Error))
+#1 {main}
+  thrown,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 16-18-09 
+                                     
+Error code: 2. 
+                                     
+Error message: Undefined variable $meta,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\view\layouts\admin.php, on line: 10 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 16-28-39 
+                                     
+Error code: Exception. 
+                                     
+Error message: Method not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 18-02-24 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, ParseError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(ParseError))
+#1 {main}
+  thrown,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 18-03-05 
+                                     
+Error code: 2. 
+                                     
+Error message: Undefined variable $content,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: 85 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 18-26-07 
+                                     
+Error code: Exception. 
+                                     
+Error message: View C:\xampp\htdocs\mvc-framework/app/view/admin\user/test.php - not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\View.php, on line: C:\xampp\htdocs\mvc-framework\app\core\View.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 18-28-51 
+                                     
+Error code: 64. 
+                                     
+Error message: Type of app\controller\MainController::$layout must be string (as in class app\core\Controller),  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\controller\MainController.php, on line: 10 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-20 18-34-12 
+                                     
+Error code: Exception. 
+                                     
+Error message: View C:\xampp\htdocs\mvc-framework/app/view/admin\user/test.php - not found,  
+                                     
+in file: C:\xampp\htdocs\mvc-framework\app\core\View.php, on line: C:\xampp\htdocs\mvc-framework\app\core\View.php 
+                                     
+<----------------------------------------------------------------------->

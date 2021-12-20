@@ -7,14 +7,12 @@ abstract class Controller
 {
     public $route =[];
     public $view;
-    public $layout;
+    public string $layout;
     public array $vars = [];
 
     public function __construct($route){
         $this->route = $route;
         $this->view = $route['action'];
-        //$this->view = $route['action'];
-        //include ROOT."app/view/{$route['controller']}/".$this->view.".php";
 
     }
 
