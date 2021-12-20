@@ -51,17 +51,4 @@ class MainController extends AppController
         echo "<h2>About</h2>";
     }
 
-    /*
-    public function delete(){
-        $model = new MainModel;
-        $model->delete(5);
-        header("Location: ".SITE."main/index");
-    }
-
-    public function update(){
-        $model = new MainModel;
-        $model->update(3, 'id', 'title', 'UPD');
-        header("Location: ".SITE."main/index");
-    }
-    */
 }

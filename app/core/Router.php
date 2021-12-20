@@ -78,18 +78,17 @@ class Router
             $action = self::$route['action'];
             if (class_exists($controller)) {
                 $obj = new $controller(self::$route);
-                //debug($obj);
                 if (method_exists($controller, $action)) {
                     $obj->$action();
                     $obj->getView();
                 } else {
                     throw new \Exception('Method not found', 404);
                 }
-            } else {
+            }else {
                 throw new \Exception('Class not found', 404);
             }
         } else {
-            //include('public/404.html');
+
             throw new \Exception('Page not found', 404);
         }
     }

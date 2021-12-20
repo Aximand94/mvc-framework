@@ -11,7 +11,7 @@ use R;
 class AppController extends Controller
 {
     public $navMenu;
-    //protected $admin = false;
+    //protected $is_admin = false;
     public array $meta=[];
 
     public function __construct($route){

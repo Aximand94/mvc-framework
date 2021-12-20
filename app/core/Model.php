@@ -4,16 +4,53 @@
 namespace app\core;
 
 
+use app\core\traits\validation;
 use PDO;
 
 abstract class Model
 {
+    use validation;
+
     protected $pdo;
     protected $table;
+    public array $attributes = [];
 
     public function __construct(){
         $this->pdo = DB::instance();
     }
+
+    public function load($data){
+        foreach($this->attributes as $key => $value){
+            if(isset($data[$key])){
+                $this->attributes[$key]=$data[$key];
+            }
+        }
+    }
+
+    // доделать валидацию
+    public function validation($data){
+        $login = trim($data['login']);
+        $password = trim($data['password']);
+        $confirmPassword = trim($data['confirmPassword']);
+        $email = trim($data['email']);
+        $name = trim($data['name']);
+
+        if($login != '' && $password  != '' && $confirmPassword != '' && $email != '' && $name != ''){
+
+            if($this->check_len(3, 50, $login) ||
+               $this->check_len(3, 50, $name) ||
+               ($this->check_len(8, 20, $password) && $this->check_len( 8, 20, $password))){
+
+                if($password === $confirmPassword){
+                    //return $data
+                    return true;
+                }
+            }
+        }else{
+            return false;
+        }
+    }
+
 
     public function query($sql){
         return $this->pdo->execute($sql);
@@ -66,5 +103,7 @@ abstract class Model
         $sql = "SELECT * FROM $this->table WHERE $row LIKE '%$str%'";
         return $this->pdo->query($sql);
     }
+
+
 
 }

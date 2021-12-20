@@ -43,7 +43,6 @@ class View
             extract($vars);
         }
         $fileView = ROOT.'app/view/'.$this->route['prefix'].$this->route['controller'].'/'.$this->view.'.php';      //тут баг, надо поправить!
-        str_replace('/','\\', $fileView);
         ob_start();
         //
         if(file_exists($fileView)){
