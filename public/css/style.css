@@ -13,10 +13,28 @@ footer {
     width: 100%;
 }
 
+/* navmenu */
 .nav-menu a{
     color: black;
     border-bottom: 1px dimgrey solid;
 }
 .nav-menu{
     text-align: center;
+}
+
+/* form errors */
+
+.input-control.success input{
+    border-color: darkgreen;
+}
+
+.input-control.error input{
+    border-color: red;
+}
+
+.input-control .error{
+    color: red;
+    font-size: 9px;
+    height: 13px;
+    font-style: italic;
 }

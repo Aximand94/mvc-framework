@@ -5,3 +5,4 @@ const CONFIG_PATH = APP_PATH.'/config';
 const LAYOUT = 'default';
 const SITE = 'http://localhost/mvc-framework/';
 const CACHE = __DIR__.'/tmp/cache';
+const FILE = '/public/';

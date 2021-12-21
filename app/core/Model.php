@@ -14,6 +14,7 @@ abstract class Model
     protected $pdo;
     protected $table;
     public array $attributes = [];
+    //public $errors = [];
 
     public function __construct(){
         $this->pdo = DB::instance();
@@ -50,6 +51,12 @@ abstract class Model
             return false;
         }
     }
+
+    /*
+    public function getErrors(){
+        debug($this->errors);
+    }
+    */
 
 
     public function query($sql){
