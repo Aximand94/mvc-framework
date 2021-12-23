@@ -1,23 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AdminLTE | Dashboard</title>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Admin</title>
-    <script src="<?=APP_PATH?>public/js/jquery-3.6.0.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="<?=ADMIN_VIEW?>plugins/fontawesome-free/css/all.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Tempusdominus Bootstrap 4 -->
+    <link rel="stylesheet" href="<?=ADMIN_VIEW?>plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="<?=ADMIN_VIEW?>plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- JQVMap -->
+    <link rel="stylesheet" href="<?=ADMIN_VIEW?>plugins/jqvmap/jqvmap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="<?=ADMIN_VIEW?>dist/css/adminlte.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="<?=ADMIN_VIEW?>plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <!-- Daterange picker -->
+    <link rel="stylesheet" href="<?=ADMIN_VIEW?>plugins/daterangepicker/daterangepicker.css">
+    <!-- summernote -->
+    <link rel="stylesheet" href="<?=ADMIN_VIEW?>plugins/summernote/summernote-bs4.min.css">
 </head>
 <body>
-<!-- header -->
-<?php include('includes/header.php')?>
-<!-- tags menu -->
+<!-- admin dashboard -->
+
 <?=$content?>
-    <?php include('includes/footer.php')?>
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+<!-- jQuery -->
+<script src="<?=ADMIN_VIEW?>plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="<?=ADMIN_VIEW?>plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+    $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="<?=ADMIN_VIEW?>plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="<?=ADMIN_VIEW?>plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="<?=ADMIN_VIEW?>plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="<?=ADMIN_VIEW?>plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="<?=ADMIN_VIEW?>plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="<?=ADMIN_VIEW?>plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="<?=ADMIN_VIEW?>plugins/moment/moment.min.js"></script>
+<script src="<?=ADMIN_VIEW?>plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="<?=ADMIN_VIEW?>plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="<?=ADMIN_VIEW?>plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="<?=ADMIN_VIEW?>plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="<?=ADMIN_VIEW?>dist/js/adminlte.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?=ADMIN_VIEW?>dist/js/demo.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="<?=ADMIN_VIEW?>dist/js/pages/dashboard.js"></script>
 </body>
 </html>

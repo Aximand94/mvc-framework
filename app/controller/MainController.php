@@ -3,6 +3,7 @@
 
 namespace app\controller;
 
+use app\core\Pagination;
 use app\model\MainModel;
 use R;
 use app\core\App;
@@ -17,7 +18,7 @@ class MainController extends AppController
         R::fancyDebug(true);
         $model = new MainModel;
         $posts = $model->selectAll(); */
-        $posts = R::findAll('posts');
+
         /*
         $posts = App::$app->cache->getCache('posts');
         if(!$posts){
@@ -25,12 +26,24 @@ class MainController extends AppController
             App::$app->cache->setCache('posts', $posts, 3600*24);
         }
         */
-        $post = R::findOne('posts','id=1');
+        /////////////////////pageno
+        $page = isset($_GET['page']) ? (int)$_GET['page']: 1;
+        $total = R::count('posts');
+        $limit = 2;
+        $pageno = new Pagination($page, $limit, $total);
+        $start = $pageno->pagStart();
+
+        $posts = R::findAll('posts', "LIMIT $start, $limit");
+        //debug($pageno);
+        //$posts = R::findAll('posts');
+        ///////////////////////
+
         $this->setMeta('MainPage','описание страницы','ключевые слова');
         //$this->setMeta($post->title,$post->content);
         $menu = $this->navMenu;
         $meta = $this->meta;
-        $this->setVars(compact('posts', 'menu', 'meta'));
+        $this->setVars(compact('posts', 'menu', 'meta', 'pageno', 'start'));
+        //$this->setVars(compact('posts', 'menu', 'meta'));
     }
 
     public function test(){

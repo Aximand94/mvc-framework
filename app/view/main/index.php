@@ -1,21 +1,17 @@
-<div class="container mb-2">
-    <div class="col-9">
-    <div>
-        <button class="btn btn-primary" id="send">Send</button>
-    </div>
-    <?php new \app\lib\Menu()?>
-    <div class="container">
-        <?php if(!empty($posts)):?>
-            <?php foreach($posts as $post):?>
-                <h3><?=$post['title']?></h3>
-                <span>ID: <i><?=$post['id']?> </i>DATE: <i><?=$post['create_date']?></i></span>
-                <p><?=$post['content']?></p>
-            <?php endforeach?>
-        <?php endif?>
-    </div>
-
-    </div>
-</div>
-
-
-
+<?php if(!empty($posts)):?>
+    <!-- post -->
+    <?php foreach($posts as $post):?>
+        <div class="card mb-3 post">
+            <img src="../../../public/img/blog-img.jpg" class="card-img-top" alt="title img">
+            <div class="card-body">
+                <h5 class="card-title"><?=$post['title']?>></h5>
+                <p class="card-text"><?=$post['content']?>></p>
+                <p class="card-text"><small class="text-muted">Create: <?=$post['create_date']?></small></p>
+            </div>
+        </div>
+    <?php endforeach;?>
+    <!-- pagination -->
+    <?php if($pageno->totalPages > 1):?>
+        <?=$pageno;?>
+    <?php endif?>
+<?php endif;?>

@@ -3,6 +3,8 @@ include('app/lib/dev.php');
 require('app/config/db.php');
 require('path.php');
 require('app/config/config.php');
+require('app/lib/function.php');
+
 const DEBUG = true;
 
 use app\core\ErrorHelper;

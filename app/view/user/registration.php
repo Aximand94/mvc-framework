@@ -7,9 +7,9 @@
         <div class="mb-3">
             <span class="message" hidden>Errors</span>
         </div>
-        <form method="POST" action="<?=SITE?>user/registration" id="form">
+        <form method="post" action="/user/registration" id="registration-form">
             <div class="mb-3 input-control">
-                <label for="exampleInputEmail1" class="form-label">Login:</label>
+                <label for="login" class="form-label">Login:</label>
                 <input type="text" name="login" class="form-control form-input" id="login">
                 <small id="error"></small>
             </div>

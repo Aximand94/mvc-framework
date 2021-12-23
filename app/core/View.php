@@ -43,15 +43,18 @@ class View
             extract($vars);
         }
         $fileView = ROOT.'app/view/'.$this->route['prefix'].$this->route['controller'].'/'.$this->view.'.php';      //тут баг, надо поправить!
+        ///////////////////////////////////////////////
+        /// ob_start('ob_gzhandler');
         ob_start();
-        //
+        //header("Content-Encoding: gzip");
         if(file_exists($fileView)){
             require($fileView);
         }else{
             throw new \Exception("View $fileView - not found", 404);
         }
-        $content = ob_get_clean();
-        //
+        $content = ob_get_contents();
+        ob_clean();
+        ///////////////////////////////////////////////
         if($this->layout!==false){
             $fileLayout = ROOT.'app/view/layouts/'.$this->layout.'.php';
             if(file_exists($fileLayout)){
@@ -60,5 +63,27 @@ class View
                 throw new \Exception("View $fileLayout - not found", 404);
             }
         }
+    }
+
+
+    protected function compressPage($buffer){
+        $search = [
+            "/(\n)+/",
+            "/\r\n+/",
+            "/\n(\t)+/",
+            "/\n(\ )+/",
+            "/\>(\n)+</",
+            "/\>\r\n</",
+        ];
+        $replace = [
+            "\n",
+            "\n",
+            "\n",
+            "\n",
+            "><",
+            "><",
+        ];
+
+        return preg_replace($search, $replace, $buffer);
     }
 }

@@ -6,6 +6,7 @@ namespace app\core;
 
 use app\core\traits\validation;
 use PDO;
+use R;
 
 abstract class Model
 {
@@ -14,7 +15,6 @@ abstract class Model
     protected $pdo;
     protected $table;
     public array $attributes = [];
-    //public $errors = [];
 
     public function __construct(){
         $this->pdo = DB::instance();
@@ -28,7 +28,15 @@ abstract class Model
         }
     }
 
-    // доделать валидацию
+    public function save($table){
+        $dbQuery = R::dispense($table);
+        foreach($this->attributes as $key => $value){
+            $dbQuery->$key = $value;
+        }
+        return R::store($dbQuery);
+    }
+
+    // доделать валидацию, или полностью переделать
     public function validation($data){
         $login = trim($data['login']);
         $password = trim($data['password']);
@@ -51,13 +59,6 @@ abstract class Model
             return false;
         }
     }
-
-    /*
-    public function getErrors(){
-        debug($this->errors);
-    }
-    */
-
 
     public function query($sql){
         return $this->pdo->execute($sql);
