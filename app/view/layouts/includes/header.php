@@ -12,17 +12,35 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/main/about">About</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        User
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="/user/login">Login</a></li>
-                        <li><a class="dropdown-item" href="/user/logout">Logout</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="/admin">Admin</a></li>
-                    </ul>
-                </li>
+                <!-- new login -->
+                <!-- перенести в контролеер! -->
+                <?php if(empty($_SESSION['user'])):?>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/user/login">Login</a>
+                    </li>
+                <?php else:?>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            User
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <?php if(\app\model\UserModel::isAdmin()):?>
+                                <li><a class="dropdown-item" href="/admin">Admin dashboard</a></li>
+                            <?php else:?>
+                                <li><a class="dropdown-item" href="/user/index">User dashboard</a></li>
+                            <?php endif?>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/user/logout">Logout</a></li>
+                        </ul>
+                    </li>
+                <?php endif?>
+                <?php if(empty($_SESSION['user'])):?>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/user/registration">Registration</a>
+                    </li>
+                <?php endif?>
+                <!-- end -->
             </ul>
         </div>
     </div>

@@ -31,9 +31,15 @@ $query = $_SERVER['QUERY_STRING'];
 
 new App;
 
-//admin
-Router::add('^admin$', ['controller'=>'User', 'action'=>'index', 'prefix'=>'admin']);
+//admin routers
+Router::add('^admin$', ['controller'=>'Main', 'action'=>'index', 'prefix'=>'admin']);
 Router::add('^admin/?(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$', ['prefix'=>'admin']);
+
+//user routers
+/*
+Router::add('^user$', ['controller'=>'Main', 'action'=>'index', 'prefix'=>'user']);
+Router::add('^user/?(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$',['prefix'=>'user']);
+*/
 
 //defaults route
 Router::add('^$', ['controller'=>'Main', 'action'=>'index']);

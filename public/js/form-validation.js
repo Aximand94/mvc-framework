@@ -6,7 +6,7 @@ let login = document.getElementById('login');
 let password = document.getElementById('password');
 let confirmPassword = document.getElementById('confirm-password');
 let email = document.getElementById('email');
-let userName = document.getElementById('user-name');
+let userName = document.getElementById('main-name');
 let policyCheckbox = document.getElementById('policy');
 
 

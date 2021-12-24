@@ -34,7 +34,7 @@ class MainController extends AppController
         $start = $pageno->pagStart();
 
         $posts = R::findAll('posts', "LIMIT $start, $limit");
-        //debug($pageno);
+        //debug($_SESSION);
         //$posts = R::findAll('posts');
         ///////////////////////
 
@@ -45,7 +45,7 @@ class MainController extends AppController
         $this->setVars(compact('posts', 'menu', 'meta', 'pageno', 'start'));
         //$this->setVars(compact('posts', 'menu', 'meta'));
     }
-
+    /*
     public function test(){
         if($this->isAjax()){
             $model = new MainModel();
@@ -59,6 +59,7 @@ class MainController extends AppController
             echo "SSSSSSSSS";
         }
     }
+    */
 
     public function about(){
         echo "<h2>About</h2>";

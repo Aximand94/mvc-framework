@@ -29,7 +29,9 @@ class UserController extends AppController
     public function login(){
         if(!empty($_POST)){
             $user = new UserModel();
-            if($user->userLogin()){
+            if($user->userLogin() && UserModel::isAdmin()==false){
+                redirect('/user/index');
+            }else{
                 redirect('/main/index');
             }
         }
@@ -38,6 +40,13 @@ class UserController extends AppController
     public function logout(){
         if(isset($_SESSION['user'])) unset($_SESSION['user']);
         redirect('/main/index');
+    }
+
+    public function account(){
+
+    }
+
+    public function create(){
 
     }
 }

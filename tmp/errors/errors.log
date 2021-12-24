@@ -1413,3 +1413,210 @@ Error message: Page not found,
 in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
                                      
 <----------------------------------------------------------------------->
+ 2021-12-24 13-09-31 
+                                     
+Error code: Exception. 
+                                     
+Error message: View D:\OpenServer\domains\mvc.framework.com/app/view/admin\Main/index.php - not found,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\View.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\View.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 13-10-11 
+                                     
+Error code: Exception. 
+                                     
+Error message: View D:\OpenServer\domains\mvc.framework.com/app/view/admin\main/index.php - not found,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\View.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\View.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 13-12-44 
+                                     
+Error code: Exception. 
+                                     
+Error message: Page not found,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 13-13-06 
+                                     
+Error code: Exception. 
+                                     
+Error message: Page not found,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 13-16-00 
+                                     
+Error code: Exception. 
+                                     
+Error message: Page not found,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 13-23-13 
+                                     
+Error code: Exception. 
+                                     
+Error message: Page not found,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 13-25-51 
+                                     
+Error code: Exception. 
+                                     
+Error message: Page not found,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 13-26-09 
+                                     
+Error code: Exception. 
+                                     
+Error message: Page not found,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 13-26-27 
+                                     
+Error code: Exception. 
+                                     
+Error message: Page not found,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 13-27-45 
+                                     
+Error code: Exception. 
+                                     
+Error message: Page not found,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 13-27-48 
+                                     
+Error code: Exception. 
+                                     
+Error message: Page not found,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 13-28-22 
+                                     
+Error code: Exception. 
+                                     
+Error message: Page not found,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 13-28-26 
+                                     
+Error code: Exception. 
+                                     
+Error message: Page not found,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 13-37-30 
+                                     
+Error code: Exception. 
+                                     
+Error message: Page not found,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 15-26-57 
+                                     
+Error code: Exception. 
+                                     
+Error message: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'role' at row 1,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\lib\rb-mysql.php, on line: D:\OpenServer\domains\mvc.framework.com\app\lib\rb-mysql.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 15-27-06 
+                                     
+Error code: Exception. 
+                                     
+Error message: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'role' at row 1,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\lib\rb-mysql.php, on line: D:\OpenServer\domains\mvc.framework.com\app\lib\rb-mysql.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 15-29-57 
+                                     
+Error code: Exception. 
+                                     
+Error message: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'role' at row 1,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\lib\rb-mysql.php, on line: D:\OpenServer\domains\mvc.framework.com\app\lib\rb-mysql.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 16-54-05 
+                                     
+Error code: Exception. 
+                                     
+Error message: Method not found,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 16-59-31 
+                                     
+Error code: Exception. 
+                                     
+Error message: Method not found,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 18-38-20 
+                                     
+Error code: Exception. 
+                                     
+Error message: Method not found,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 19-02-53 
+                                     
+Error code: Exception. 
+                                     
+Error message: Page not found,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 19-02-57 
+                                     
+Error code: Exception. 
+                                     
+Error message: Page not found,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-24 21-02-36 
+                                     
+Error code: Exception. 
+                                     
+Error message: Method not found,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+                                     
+<----------------------------------------------------------------------->

@@ -913,13 +913,13 @@ class RPDO implements Driver
 	}
 
 	/**
-	 * Constructor. You may either specify dsn, user and password or
+	 * Constructor. You may either specify dsn, main and password or
 	 * just give an existing PDO connection.
 	 *
 	 * Usage:
 	 *
 	 * <code>
-	 * $driver = new RPDO( $dsn, $user, $password );
+	 * $driver = new RPDO( $dsn, $main, $password );
 	 * </code>
 	 *
 	 * The example above illustrates how to create a driver
@@ -953,7 +953,7 @@ class RPDO implements Driver
 			$this->dsn = $this->getDatabaseType();
 		} else {
 			$this->dsn = $dsn;
-			$this->connectInfo = array( 'pass' => $pass, 'user' => $user );
+			$this->connectInfo = array( 'pass' => $pass, 'main' => $user );
 			if (is_array($options)) $this->connectInfo['options'] = $options;
 		}
 
@@ -1077,7 +1077,7 @@ class RPDO implements Driver
 	{
 		if ( $this->isConnected ) return;
 		try {
-			$user = $this->connectInfo['user'];
+			$user = $this->connectInfo['main'];
 			$pass = $this->connectInfo['pass'];
 			$options = array();
 			if (isset($this->connectInfo['options']) && is_array($this->connectInfo['options'])) {
@@ -4238,7 +4238,7 @@ class DBAdapter extends Observable implements Adapter
 	 * Usage:
 	 *
 	 * <code>
-	 * $database = new RPDO( $dsn, $user, $pass );
+	 * $database = new RPDO( $dsn, $main, $pass );
 	 * $adapter = new DBAdapter( $database );
 	 * $writer = new PostgresWriter( $adapter );
 	 * $oodb = new OODB( $writer, FALSE );
@@ -4811,7 +4811,7 @@ interface QueryWriter
 	 *
 	 * 00 - 80: normal data types
 	 * 80 - 99: special data types, only scan/code if requested
-	 * 99     : specified by user, don't change
+	 * 99     : specified by main, don't change
 	 */
 	const C_DATATYPE_RANGE_SPECIAL   = 80;
 	const C_DATATYPE_RANGE_SPECIFIED = 99;
@@ -4962,7 +4962,7 @@ interface QueryWriter
 	 *
 	 * Special column types are determines by the AQueryWriter constant
 	 * C_DATA_TYPE_ONLY_IF_NOT_EXISTS (usually 80). Another 'very special' type is type
-	 * C_DATA_TYPE_MANUAL (usually 99) which represents a user specified type. Although
+	 * C_DATA_TYPE_MANUAL (usually 99) which represents a main specified type. Although
 	 * no special treatment has been associated with the latter for now.
 	 *
 	 * @param string  $value                   value
@@ -7131,7 +7131,7 @@ class MySQL extends AQueryWriter implements QueryWriter
 	 * Usage:
 	 *
 	 * <code>
-	 * $database = new RPDO( $dsn, $user, $pass );
+	 * $database = new RPDO( $dsn, $main, $pass );
 	 * $adapter = new DBAdapter( $database );
 	 * $writer = new PostgresWriter( $adapter );
 	 * $oodb = new OODB( $writer, FALSE );
@@ -7587,7 +7587,7 @@ class CUBRID extends AQueryWriter implements QueryWriter
 	 * Usage:
 	 *
 	 * <code>
-	 * $database = new RPDO( $dsn, $user, $pass );
+	 * $database = new RPDO( $dsn, $main, $pass );
 	 * $adapter = new DBAdapter( $database );
 	 * $writer = new PostgresWriter( $adapter );
 	 * $oodb = new OODB( $writer, FALSE );
@@ -8829,7 +8829,7 @@ class Fluid extends Repository
 	 *
 	 * Note that this method raises a custom exception if the bean
 	 * is not an instance of OODBBean. Therefore it does not use
-	 * a type hint. This allows the user to take action in case
+	 * a type hint. This allows the main to take action in case
 	 * invalid objects are passed in the list.
 	 *
 	 * @param OODBBean $bean         bean to process
@@ -9098,7 +9098,7 @@ class Frozen extends Repository
 	 *
 	 * Note that this method raises a custom exception if the bean
 	 * is not an instance of OODBBean. Therefore it does not use
-	 * a type hint. This allows the user to take action in case
+	 * a type hint. This allows the main to take action in case
 	 * invalid objects are passed in the list.
 	 *
 	 * @param OODBBean $bean         bean to process
@@ -9307,7 +9307,7 @@ class OODB extends Observable
 	 * Usage:
 	 *
 	 * <code>
-	 * $database = new RPDO( $dsn, $user, $pass );
+	 * $database = new RPDO( $dsn, $main, $pass );
 	 * $adapter = new DBAdapter( $database );
 	 * $writer = new PostgresWriter( $adapter );
 	 * $oodb = new OODB( $writer, FALSE );
@@ -9944,7 +9944,7 @@ namespace RedBeanPHP {
 /**
  * RedBeanPHP Finder.
  * Service class to find beans. For the most part this class
- * offers user friendly utility methods for interacting with the
+ * offers main friendly utility methods for interacting with the
  * OODB::find() method, which is rather complex. This class can be
  * used to find beans using plain old SQL queries.
  *
@@ -12179,7 +12179,7 @@ class Facade
 	 *
 	 * @param string      $key    ID for the database
 	 * @param string      $dsn    DSN for the database
-	 * @param string      $user   user for connection
+	 * @param string      $user   main for connection
 	 * @param NULL|string $pass   password for connection
 	 * @param bool        $frozen whether this database is frozen or not
 	 *
@@ -13806,7 +13806,7 @@ class Facade
 	 * Usage:
 	 *
 	 * <code>
-	 * $users = R::find('user');
+	 * $users = R::find('main');
 	 * $users = R::loadJoined( $users, 'country' );
 	 * </code>
 	 *

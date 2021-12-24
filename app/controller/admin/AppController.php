@@ -5,6 +5,7 @@ namespace app\controller\admin;
 
 
 use app\core\Controller;
+use app\model\UserModel;
 
 class AppController extends Controller
 {
@@ -13,11 +14,9 @@ class AppController extends Controller
     public function __construct($route)
     {
         parent::__construct($route);
-        /*
-        if(isset($is_admin) || $is_admin!=true){
-            die('Access Denied!');
+        if(!UserModel::isAdmin() && $route['action']!='login'){
+            redirect('/user/login');
         }
-        */
     }
 
 

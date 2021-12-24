@@ -1,3 +1,4 @@
+<?php debug($_SESSION);?>
 <?php if(!empty($posts)):?>
     <!-- post -->
     <?php foreach($posts as $post):?>

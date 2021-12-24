@@ -44,9 +44,8 @@ class View
         }
         $fileView = ROOT.'app/view/'.$this->route['prefix'].$this->route['controller'].'/'.$this->view.'.php';      //тут баг, надо поправить!
         ///////////////////////////////////////////////
-        /// ob_start('ob_gzhandler');
-        ob_start();
-        //header("Content-Encoding: gzip");
+         ob_start('ob_gzhandler');
+        header("Content-Encoding: gzip");
         if(file_exists($fileView)){
             require($fileView);
         }else{
@@ -57,6 +56,9 @@ class View
         ///////////////////////////////////////////////
         if($this->layout!==false){
             $fileLayout = ROOT.'app/view/layouts/'.$this->layout.'.php';
+            if($this->route['prefix'] == 'admin'){
+                $fileLayout = ROOT.'app/view/admin/layouts/'.$this->layout.'.php';
+            }
             if(file_exists($fileLayout)){
                 require($fileLayout);
             }else{
@@ -65,7 +67,7 @@ class View
         }
     }
 
-
+    /*
     protected function compressPage($buffer){
         $search = [
             "/(\n)+/",
@@ -86,4 +88,5 @@ class View
 
         return preg_replace($search, $replace, $buffer);
     }
+    */
 }
