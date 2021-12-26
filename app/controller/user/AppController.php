@@ -7,6 +7,9 @@ use app\model\UserModel;
 class AppController extends Controller
 {
 
+    public string $layout = 'default';
+
+    /*
     public function __construct($route)
     {
         parent::__construct($route);
@@ -15,5 +18,6 @@ class AppController extends Controller
             //redirect('/user/login');
         //}
     }
+    */
 
 }

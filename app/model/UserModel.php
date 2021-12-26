@@ -49,4 +49,15 @@ class UserModel extends Model
         return (isset($_SESSION['user']) && $_SESSION['user']['role']=='admin');
     }
 
+    public static function getUserInfo(){
+        if(isset($_SESSION['user'])){
+            foreach($_SESSION['user'] as $key => $value){
+                $user[$key] = $value;
+            }
+            return $user;
+        }
+        return false;
+    }
+
+
 }

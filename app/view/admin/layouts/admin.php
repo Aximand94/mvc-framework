@@ -32,7 +32,7 @@
     <div class="wrapper">
 
         <!-- navbar -->
-        <?php require('')?>
+        <?php require('includes/navbar.php')?>
 
         <!-- admin content -->
         <?=$content?>

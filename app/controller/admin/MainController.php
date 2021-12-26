@@ -3,10 +3,12 @@
 
 namespace app\controller\admin;
 
+use app\model\PostModel;
+
 class MainController extends AppController
 {
     public function index(){
-
+        //PostModel::getUserPostsCount(2);
     }
 
     public function logout(){

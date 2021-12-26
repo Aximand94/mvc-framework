@@ -1,1221 +1,4 @@
- 2021-12-20 20-47-58 
-                                     
-Error code: Exception. 
-                                     
-Error message: Page not found,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-20 20-49-55 
-                                     
-Error code: Exception. 
-                                     
-Error message: Page not found,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-20 21-50-32 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined array key "",  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Model.php, on line: 22 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-20 21-53-58 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined array key "",  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Model.php, on line: 22 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-20 22-26-18 
-                                     
-Error code: 8192. 
-                                     
-Error message: Required parameter $min follows optional parameter $str,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Model.php, on line: 56 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-21 23-41-10 
-                                     
-Error code: Exception. 
-                                     
-Error message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'confirm_password' in 'field list',  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php, on line: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-21 23-41-44 
-                                     
-Error code: Exception. 
-                                     
-Error message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'confirm_password' in 'field list',  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php, on line: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-21 23-46-58 
-                                     
-Error code: Exception. 
-                                     
-Error message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'ddddd' for key 'login',  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php, on line: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-21 23-47-03 
-                                     
-Error code: Exception. 
-                                     
-Error message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'ddddd' for key 'login',  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php, on line: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-21 23-48-31 
-                                     
-Error code: Exception. 
-                                     
-Error message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'rtyuid' for key 'login',  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php, on line: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-21 23-59-12 
-                                     
-Error code: Exception. 
-                                     
-Error message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test_framework.user' doesn't exist,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php, on line: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 00-01-17 
-                                     
-Error code: Exception. 
-                                     
-Error message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'rtyuid' for key 'login',  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php, on line: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 00-01-20 
-                                     
-Error code: Exception. 
-                                     
-Error message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'rtyuid' for key 'login',  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php, on line: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 00-01-42 
-                                     
-Error code: Exception. 
-                                     
-Error message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'rtyuid' for key 'login',  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php, on line: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 00-07-45 
-                                     
-Error code: Exception. 
-                                     
-Error message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'rtyuid' for key 'login',  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php, on line: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 00-10-08 
-                                     
-Error code: Exception. 
-                                     
-Error message: Page not found,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 00-10-58 
-                                     
-Error code: Exception. 
-                                     
-Error message: Page not found,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 00-10-59 
-                                     
-Error code: Exception. 
-                                     
-Error message: Page not found,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 00-10-59 
-                                     
-Error code: Exception. 
-                                     
-Error message: Page not found,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 00-10-59 
-                                     
-Error code: Exception. 
-                                     
-Error message: Page not found,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 00-10-59 
-                                     
-Error code: Exception. 
-                                     
-Error message: Page not found,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 00-11-02 
-                                     
-Error code: Exception. 
-                                     
-Error message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'dddddddddddddddddddddddddddddd' for key 'login',  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php, on line: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 00-11-21 
-                                     
-Error code: Exception. 
-                                     
-Error message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'qwertpoiu@mail.com' for key 'email',  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php, on line: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 14-42-15 
-                                     
-Error code: Exception. 
-                                     
-Error message: Method not found,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 14-42-22 
-                                     
-Error code: Exception. 
-                                     
-Error message: View C:\xampp\htdocs\mvc-framework/app/view/user/login.php - not found,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\View.php, on line: C:\xampp\htdocs\mvc-framework\app\core\View.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 14-53-23 
-                                     
-Error code: Exception. 
-                                     
-Error message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'dssd' for key 'login',  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php, on line: C:\xampp\htdocs\mvc-framework\app\lib\rb-mysql.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 14-58-20 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined variable $_SESSION,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\view\layouts\default.php, on line: 21 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-07-05 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-07-07 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-07-25 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-07-28 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-08-07 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-08-15 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-08-37 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-08-47 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-08-48 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-08-49 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-08-49 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-08-49 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-08-50 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-08-50 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-08-50 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-09-09 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, ArgumentCountError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(ArgumentCountError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-09-10 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, ArgumentCountError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(ArgumentCountError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-09-10 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, ArgumentCountError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(ArgumentCountError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-09-10 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, ArgumentCountError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(ArgumentCountError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-09-21 
-                                     
-Error code: 2. 
-                                     
-Error message: ob_start(): function &quot;done!&quot; not found or invalid function name,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\View.php, on line: 46 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-09-36 
-                                     
-Error code: 2. 
-                                     
-Error message: ob_start(): function &quot;done!&quot; not found or invalid function name,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\View.php, on line: 46 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-09-37 
-                                     
-Error code: 2. 
-                                     
-Error message: ob_start(): function &quot;done!&quot; not found or invalid function name,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\View.php, on line: 46 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-09-37 
-                                     
-Error code: 2. 
-                                     
-Error message: ob_start(): function &quot;done!&quot; not found or invalid function name,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\View.php, on line: 46 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-09-37 
-                                     
-Error code: 2. 
-                                     
-Error message: ob_start(): function &quot;done!&quot; not found or invalid function name,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\View.php, on line: 46 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-09-37 
-                                     
-Error code: 2. 
-                                     
-Error message: ob_start(): function &quot;done!&quot; not found or invalid function name,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\View.php, on line: 46 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-09-37 
-                                     
-Error code: 2. 
-                                     
-Error message: ob_start(): function &quot;done!&quot; not found or invalid function name,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\View.php, on line: 46 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 16-10-02 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(TypeError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 22-52-13 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, ArgumentCountError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(ArgumentCountError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 22-52-17 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, ArgumentCountError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(ArgumentCountError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 22-55-39 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, ArgumentCountError given in C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler(Object(ArgumentCountError))
-#1 {main}
-  thrown,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-04-54 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined array key 1,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 55 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-05-34 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined variable $pageno,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\view\main\index.php, on line: 15 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-05-41 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined variable $pageno,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\view\main\index.php, on line: 15 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-06-42 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined variable $pageno,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\view\main\index.php, on line: 15 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-06-42 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined variable $pageno,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\view\main\index.php, on line: 15 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-07-49 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined property: app\core\Pagination::$totalPage,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\view\main\index.php, on line: 15 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-08-40 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined property: app\core\Pagination::$uri,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 85 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-08-41 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined property: app\core\Pagination::$uri,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 85 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-09-41 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined array key 1,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 56 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-10-08 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined array key 1,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 56 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-10-14 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 85 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-10-18 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 82 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-10-21 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 82 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-10-26 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 82 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-10-29 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 82 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-10-33 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 82 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-10-36 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 85 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-10-48 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 85 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-10-51 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined array key 1,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 56 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-11-56 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined array key 1,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 57 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-12-16 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined array key 1,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 58 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-12-35 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined array key 1,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 58 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-12-44 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined array key 1,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 58 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-12-45 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined array key 1,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 58 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-12-55 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined array key 1,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 57 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-13-01 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined array key 1,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 57 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-13-13 
-                                     
-Error code: Exception. 
-                                     
-Error message: Class not found,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Router.php, on line: C:\xampp\htdocs\mvc-framework\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-13-19 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined array key 1,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 57 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-13-26 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined array key 1,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 57 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-22 23-13-34 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: C:\xampp\htdocs\mvc-framework\app\core\Pagination.php, on line: 87 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-37-44 
-                                     
-Error code: Exception. 
-                                     
-Error message: Could not connect to database (test_framework).,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\lib\rb-mysql.php, on line: D:\OpenServer\domains\mvc.framework.com\app\lib\rb-mysql.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-38-33 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined array key 1,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 57 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-38-45 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined array key 1,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 57 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-38-51 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined array key 1,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 57 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-39-01 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 87 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-39-40 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 84 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-39-45 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 84 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-39-48 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 84 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-39-51 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 87 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-40-20 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 87 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-40-21 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 87 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-40-21 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 87 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-40-30 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 87 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-40-34 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined array key 1,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 57 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-40-58 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 87 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-41-08 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 84 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-41-11 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 84 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-41-17 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 84 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-41-17 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 87 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-41-18 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 87 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 13-48-56 
-                                     
-Error code: Exception. 
-                                     
-Error message: Page not found,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 14-46-40 
-                                     
-Error code: Exception. 
-                                     
-Error message: Page not found,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 14-46-55 
-                                     
-Error code: Exception. 
-                                     
-Error message: Page not found,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 14-57-50 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 87 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 15-11-49 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 87 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 15-37-38 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 83 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 15-37-48 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 83 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 15-37-51 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 80 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 15-37-56 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 83 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 15-39-11 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 79 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 15-39-12 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 79 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 15-39-13 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 76 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 15-39-14 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 76 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 15-39-17 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 79 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 15-41-51 
-                                     
-Error code: 2. 
-                                     
-Error message: Array to string conversion,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Pagination.php, on line: 79 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 16-17-32 
-                                     
-Error code: 2. 
-                                     
-Error message: compact(): Undefined variable $menu,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\controller\MainController.php, on line: 43 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 16-36-16 
-                                     
-Error code: Exception. 
-                                     
-Error message: Class not found,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 16-36-32 
-                                     
-Error code: Exception. 
-                                     
-Error message: Class not found,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 16-36-44 
+ 2021-12-26 20-09-51 
                                      
 Error code: 1. 
                                      
@@ -1228,7 +11,7 @@ Stack trace:
 in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
                                      
 <----------------------------------------------------------------------->
- 2021-12-23 16-36-50 
+ 2021-12-26 20-11-19 
                                      
 Error code: 1. 
                                      
@@ -1241,104 +24,7 @@ Stack trace:
 in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
                                      
 <----------------------------------------------------------------------->
- 2021-12-23 16-50-39 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, TypeError given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
-#1 {main}
-  thrown,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 17-17-52 
-                                     
-Error code: 2. 
-                                     
-Error message: require(pageno.php): Failed to open stream: No such file or directory,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\view\posts\index.php, on line: 16 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 17-19-03 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, ParseError given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
-#1 {main}
-  thrown,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 17-19-19 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, ParseError given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
-#1 {main}
-  thrown,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 17-21-20 
-                                     
-Error code: 1. 
-                                     
-Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, ParseError given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
-Stack trace:
-#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
-#1 {main}
-  thrown,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 17-22-40 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined property: app\core\Pagination::$carrenPag,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\view\main\pageno.php, on line: 5 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 17-22-43 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined property: app\core\Pagination::$carrenPag,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\view\main\pageno.php, on line: 5 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 17-22-45 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined property: app\core\Pagination::$carrenPag,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\view\main\pageno.php, on line: 5 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 17-22-46 
-                                     
-Error code: 2. 
-                                     
-Error message: Undefined property: app\core\Pagination::$carrenPag,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\view\main\pageno.php, on line: 5 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 23-34-48 
+ 2021-12-26 20-11-51 
                                      
 Error code: 1. 
                                      
@@ -1351,25 +37,7 @@ Stack trace:
 in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
                                      
 <----------------------------------------------------------------------->
- 2021-12-23 23-35-37 
-                                     
-Error code: Exception. 
-                                     
-Error message: Method not found,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-23 23-59-24 
-                                     
-Error code: Exception. 
-                                     
-Error message: Method not found,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-24 00-07-42 
+ 2021-12-26 20-11-53 
                                      
 Error code: 1. 
                                      
@@ -1382,7 +50,7 @@ Stack trace:
 in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
                                      
 <----------------------------------------------------------------------->
- 2021-12-24 00-07-42 
+ 2021-12-26 20-15-21 
                                      
 Error code: 1. 
                                      
@@ -1395,228 +63,380 @@ Stack trace:
 in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
                                      
 <----------------------------------------------------------------------->
- 2021-12-24 00-26-25 
+ 2021-12-26 20-15-24 
                                      
-Error code: Exception. 
+Error code: 1. 
                                      
-Error message: Method not found,  
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
                                      
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-24 00-27-09 
-                                     
-Error code: Exception. 
-                                     
-Error message: Page not found,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
                                      
 <----------------------------------------------------------------------->
- 2021-12-24 13-09-31 
+ 2021-12-26 20-33-14 
                                      
-Error code: Exception. 
+Error code: 1. 
                                      
-Error message: View D:\OpenServer\domains\mvc.framework.com/app/view/admin\Main/index.php - not found,  
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
                                      
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\View.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\View.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-24 13-10-11 
-                                     
-Error code: Exception. 
-                                     
-Error message: View D:\OpenServer\domains\mvc.framework.com/app/view/admin\main/index.php - not found,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\View.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\View.php 
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
                                      
 <----------------------------------------------------------------------->
- 2021-12-24 13-12-44 
+ 2021-12-26 20-33-59 
                                      
-Error code: Exception. 
+Error code: 1. 
                                      
-Error message: Page not found,  
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
                                      
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-24 13-13-06 
-                                     
-Error code: Exception. 
-                                     
-Error message: Page not found,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
                                      
 <----------------------------------------------------------------------->
- 2021-12-24 13-16-00 
+ 2021-12-26 20-38-41 
                                      
-Error code: Exception. 
+Error code: 1. 
                                      
-Error message: Page not found,  
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
                                      
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-24 13-23-13 
-                                     
-Error code: Exception. 
-                                     
-Error message: Page not found,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
                                      
 <----------------------------------------------------------------------->
- 2021-12-24 13-25-51 
+ 2021-12-26 20-39-22 
                                      
-Error code: Exception. 
+Error code: 1. 
                                      
-Error message: Page not found,  
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
                                      
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-24 13-26-09 
-                                     
-Error code: Exception. 
-                                     
-Error message: Page not found,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
                                      
 <----------------------------------------------------------------------->
- 2021-12-24 13-26-27 
+ 2021-12-26 20-39-24 
                                      
-Error code: Exception. 
+Error code: 1. 
                                      
-Error message: Page not found,  
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
                                      
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-24 13-27-45 
-                                     
-Error code: Exception. 
-                                     
-Error message: Page not found,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
                                      
 <----------------------------------------------------------------------->
- 2021-12-24 13-27-48 
+ 2021-12-26 20-40-37 
                                      
-Error code: Exception. 
+Error code: 1. 
                                      
-Error message: Page not found,  
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
                                      
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-24 13-28-22 
-                                     
-Error code: Exception. 
-                                     
-Error message: Page not found,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
                                      
 <----------------------------------------------------------------------->
- 2021-12-24 13-28-26 
+ 2021-12-26 20-40-48 
                                      
-Error code: Exception. 
+Error code: 1. 
                                      
-Error message: Page not found,  
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
                                      
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-24 13-37-30 
-                                     
-Error code: Exception. 
-                                     
-Error message: Page not found,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
                                      
 <----------------------------------------------------------------------->
- 2021-12-24 15-26-57 
+ 2021-12-26 20-42-25 
                                      
-Error code: Exception. 
+Error code: 1. 
                                      
-Error message: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'role' at row 1,  
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
                                      
-in file: D:\OpenServer\domains\mvc.framework.com\app\lib\rb-mysql.php, on line: D:\OpenServer\domains\mvc.framework.com\app\lib\rb-mysql.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-24 15-27-06 
-                                     
-Error code: Exception. 
-                                     
-Error message: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'role' at row 1,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\lib\rb-mysql.php, on line: D:\OpenServer\domains\mvc.framework.com\app\lib\rb-mysql.php 
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
                                      
 <----------------------------------------------------------------------->
- 2021-12-24 15-29-57 
+ 2021-12-26 20-46-36 
                                      
-Error code: Exception. 
+Error code: 1. 
                                      
-Error message: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'role' at row 1,  
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
                                      
-in file: D:\OpenServer\domains\mvc.framework.com\app\lib\rb-mysql.php, on line: D:\OpenServer\domains\mvc.framework.com\app\lib\rb-mysql.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-24 16-54-05 
-                                     
-Error code: Exception. 
-                                     
-Error message: Method not found,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
                                      
 <----------------------------------------------------------------------->
- 2021-12-24 16-59-31 
+ 2021-12-26 20-46-57 
                                      
-Error code: Exception. 
+Error code: 1. 
                                      
-Error message: Method not found,  
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
                                      
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-24 18-38-20 
-                                     
-Error code: Exception. 
-                                     
-Error message: Method not found,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
                                      
 <----------------------------------------------------------------------->
- 2021-12-24 19-02-53 
+ 2021-12-26 20-47-21 
                                      
-Error code: Exception. 
+Error code: 1. 
                                      
-Error message: Page not found,  
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
                                      
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
-                                     
-<----------------------------------------------------------------------->
- 2021-12-24 19-02-57 
-                                     
-Error code: Exception. 
-                                     
-Error message: Page not found,  
-                                     
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
                                      
 <----------------------------------------------------------------------->
- 2021-12-24 21-02-36 
+ 2021-12-26 20-47-30 
                                      
-Error code: Exception. 
+Error code: 1. 
                                      
-Error message: Method not found,  
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
                                      
-in file: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php, on line: D:\OpenServer\domains\mvc.framework.com\app\core\Router.php 
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-26 20-48-15 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-26 20-49-03 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-26 20-49-37 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-26 20-50-22 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-26 20-51-28 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-26 20-52-01 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-26 20-53-07 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-26 20-53-08 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-26 20-53-27 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-26 21-00-52 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-26 21-00-58 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-26 21-01-12 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-26 21-01-16 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, Error given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-26 22-46-02 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, ValueError given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-26 22-46-05 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, ValueError given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
+                                     
+<----------------------------------------------------------------------->
+ 2021-12-26 22-46-10 
+                                     
+Error code: 1. 
+                                     
+Error message: Uncaught TypeError: app\core\ErrorHelper::exceptionHandler(): Argument #1 ($e) must be of type Exception, ValueError given in D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php:39
+Stack trace:
+#0 [internal function]: app\core\ErrorHelper->exceptionHandler()
+#1 {main}
+  thrown,  
+                                     
+in file: D:\OpenServer\domains\mvc.framework.com\app\core\ErrorHelper.php, on line: 39 
                                      
 <----------------------------------------------------------------------->

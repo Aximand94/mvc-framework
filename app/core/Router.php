@@ -71,7 +71,7 @@ class Router
      * redirect url to current route
      * @param $url
      */
-    public static function dispatch($url){
+    public static function getPath($url){
         $url = self::removeGetQuery($url);
         if (self::match($url)) {
             $controller = "app\controller\\" .self::$route['prefix']. ucfirst(self::$route['controller']) . "Controller";
@@ -94,7 +94,7 @@ class Router
     }
 
     public function get($url){
-        self::dispatch($url);
+        self::getPath($url);
     }
 
     /**
@@ -106,7 +106,6 @@ class Router
     {
         if ($url) {
             $params = explode('&', $url);
-            //debug($params);
             if(!str_contains($params[0], "=")){
                 return rtrim($params[0], '/');
             }else{

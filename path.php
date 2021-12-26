@@ -6,6 +6,6 @@ const LAYOUT = 'default';
 const SITE = 'http://localhost/mvc-framework/';
 const CACHE = __DIR__.'/tmp/cache';
 const FILE = '/public/';
-const ADMIN_VIEW = '/app/view/admin/main/';
+const ADMIN_VIEW = '/public/admin/';
 const ADMIN = '/admin';
 const ADMIN_DIST = '/public/admin';

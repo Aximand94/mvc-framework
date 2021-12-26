@@ -7,6 +7,7 @@
             <div class="card-body">
                 <h5 class="card-title"><?=$post['title']?>></h5>
                 <p class="card-text"><?=$post['content']?>></p>
+                <span><a href="main/single/?id=<?=$post['id']?>">Show more</a></span>
                 <p class="card-text"><small class="text-muted">Create: <?=$post['create_date']?></small></p>
             </div>
         </div>

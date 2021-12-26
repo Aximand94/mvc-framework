@@ -20,7 +20,7 @@ class DB
         R::setup($db['dsn'],$db['name'], $db['pass'],$options);
         R::freeze(true);
         //R::fancyDebug( TRUE );
-        //$this->pdo = new PDO($db['dsn'],$db['name'],$db['pass'], $options);
+        $this->pdo = new PDO($db['dsn'],$db['name'],$db['pass'], $options);
     }
 
     public static function instance(){
@@ -30,7 +30,7 @@ class DB
         return self::$instance;
     }
 
-    /*
+
     public function execute($sql){
         $this->queryCount++;
         $this->queryes[]=$sql;
@@ -48,5 +48,5 @@ class DB
         }
         return [];
     }
-    */
+
 }

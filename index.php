@@ -18,7 +18,7 @@ use app\core\App;
 date_default_timezone_set('Europe/Moscow');
 //debug(CACHE);
 spl_autoload_register(function($class){
-    $file =ROOT.str_replace('\\','/',$class).".php";
+    $file = ROOT.str_replace('\\','/',$class).".php";
     if(file_exists($file)){
         require_once $file;
     }
@@ -26,8 +26,6 @@ spl_autoload_register(function($class){
 
 $query = $_SERVER['QUERY_STRING'];
 
-//Router::add('^page/(?P<action>[a-z-]+)/(?P<query>[a-z-]+)$', ['controller'=>'Page']);
-//Router::add('^page/(?P<alias>[a-z-]+)$', ['controller'=>'Page','action'=>'view']);
 
 new App;
 
@@ -36,21 +34,12 @@ Router::add('^admin$', ['controller'=>'Main', 'action'=>'index', 'prefix'=>'admi
 Router::add('^admin/?(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$', ['prefix'=>'admin']);
 
 //user routers
-/*
+
 Router::add('^user$', ['controller'=>'Main', 'action'=>'index', 'prefix'=>'user']);
-Router::add('^user/?(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$',['prefix'=>'user']);
-*/
+Router::add('^user/?(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$', ['prefix'=>'user']);
+
 
 //defaults route
 Router::add('^$', ['controller'=>'Main', 'action'=>'index']);
 Router::add('^(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$');
-Router::dispatch($query);
-
-
-/*
-if(Router::match($query)){
-    debug(Router::getRoute());
-}else{
-    echo "404";
-}
-*/
+Router::getPath($query);

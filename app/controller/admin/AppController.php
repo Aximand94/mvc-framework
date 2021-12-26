@@ -15,7 +15,7 @@ class AppController extends Controller
     {
         parent::__construct($route);
         if(!UserModel::isAdmin() && $route['action']!='login'){
-            redirect('/user/login');
+            redirect('/account/login');
         }
     }
 

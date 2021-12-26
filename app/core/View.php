@@ -43,8 +43,9 @@ class View
             extract($vars);
         }
         $fileView = ROOT.'app/view/'.$this->route['prefix'].$this->route['controller'].'/'.$this->view.'.php';      //тут баг, надо поправить!
+        //if($this->route['prefix']=='admin')
         ///////////////////////////////////////////////
-         ob_start('ob_gzhandler');
+        ob_start('ob_gzhandler');
         header("Content-Encoding: gzip");
         if(file_exists($fileView)){
             require($fileView);
@@ -55,9 +56,10 @@ class View
         ob_clean();
         ///////////////////////////////////////////////
         if($this->layout!==false){
-            $fileLayout = ROOT.'app/view/layouts/'.$this->layout.'.php';
-            if($this->route['prefix'] == 'admin'){
+            if($this->route['prefix'] == 'admin\\'){
                 $fileLayout = ROOT.'app/view/admin/layouts/'.$this->layout.'.php';
+            }else{
+                $fileLayout = ROOT.'app/view/layouts/'.$this->layout.'.php';
             }
             if(file_exists($fileLayout)){
                 require($fileLayout);

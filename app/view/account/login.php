@@ -1,7 +1,7 @@
 
 <div class="container mt-5">
     <div class="container">
-        <form method="post" action="/user/login" id="login-form">
+        <form method="post" action="/account/login" id="login-form">
             <div class="mb-3 input-control">
                 <label for="login" class="form-label">Login:</label>
                 <input type="text" name="login" class="form-control form-input" id="login">

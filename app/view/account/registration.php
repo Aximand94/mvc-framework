@@ -7,7 +7,7 @@
         <div class="mb-3">
             <span class="message" hidden>Errors</span>
         </div>
-        <form method="post" action="/user/registration" id="registration-form">
+        <form method="post" action="/account/registration" id="registration-form">
             <div class="mb-3 input-control">
                 <label for="login" class="form-label">Login:</label>
                 <input type="text" name="login" class="form-control form-input" id="login">
@@ -38,7 +38,7 @@
             </div>
             <div class="mb-3">
                 <input type="reset" class="btn btn-secondary">
-                <input type="submit" class="btn btn-primary" name="registration" value="Registration">
+                <input type="submit" class="btn btn-primary" value="Registration">
             </div>
         </form>
     </div>

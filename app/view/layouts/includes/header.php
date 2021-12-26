@@ -16,7 +16,7 @@
                 <!-- перенести в контролеер! -->
                 <?php if(empty($_SESSION['user'])):?>
                     <li class="nav-item">
-                        <a class="nav-link" href="/user/login">Login</a>
+                        <a class="nav-link" href="/account/login">Login</a>
                     </li>
                 <?php else:?>
                     <li class="nav-item dropdown">
@@ -28,16 +28,16 @@
                             <?php if(\app\model\UserModel::isAdmin()):?>
                                 <li><a class="dropdown-item" href="/admin">Admin dashboard</a></li>
                             <?php else:?>
-                                <li><a class="dropdown-item" href="/user/index">User dashboard</a></li>
+                                <li><a class="dropdown-item" href="/user">User dashboard</a></li>
                             <?php endif?>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="/user/logout">Logout</a></li>
+                            <li><a class="dropdown-item" href="/account/logout">Logout</a></li>
                         </ul>
                     </li>
                 <?php endif?>
                 <?php if(empty($_SESSION['user'])):?>
                     <li class="nav-item">
-                        <a class="nav-link" href="/user/registration">Registration</a>
+                        <a class="nav-link" href="/account/registration">Registration</a>
                     </li>
                 <?php endif?>
                 <!-- end -->

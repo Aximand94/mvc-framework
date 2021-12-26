@@ -60,6 +60,7 @@ abstract class Model
         }
     }
 
+
     public function query($sql){
         return $this->pdo->execute($sql);
     }
@@ -73,11 +74,12 @@ abstract class Model
         $sql = "SELECT * FROM $this->table WHERE $field=$id";
         return $this->pdo->query($sql);
     }
-
+    /*
     public function delete($id, $field='id'){
         $sql = "DELETE FROM   $this->table WHERE $field=$id";
         return $this->pdo->execute($sql);
     }
+    */
 
     public function update($id, $field, $row, $value){
         $sql = "UPDATE $this->table SET $row='$value' WHERE $field = $id";
